@@ -5,7 +5,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  bash: "./",
+  bash: "/rt-todo/",
   plugins: [
     react(),
     VitePWA({
